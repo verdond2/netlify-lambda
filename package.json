@@ -1,0 +1,25 @@
+{
+  "name": "lambda-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"prod": "npm run build:lambda",
+    "start:lambda": "netlify-lambda serve functions",
+    "build:lambda": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verdond2/netlify-lambda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verdond2/netlify-lambda/issues"
+  },
+  "homepage": "https://github.com/verdond2/netlify-lambda#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
